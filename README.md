@@ -1,1 +1,0 @@
-# systemkit-logging-persisters-consolewithcolors
