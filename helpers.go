@@ -11,27 +11,27 @@ import (
 type ConsoleLoggerColorDelegate func(string, ...interface{}) string
 
 func whiteString(format string, a ...interface{}) string {
-	return colors.ColoredText(fmt.Sprintf(format, a), colors.Foreground.White).String()
+	return colors.ColoredText(fmt.Sprintf(format, a...), colors.Foreground.White).String()
 }
 
 func blackStringYellowBG(format string, a ...interface{}) string {
-	return colors.ColoredTextWithBG(fmt.Sprintf(format, a), colors.Foreground.Black, colors.Background.LightYellow).String()
+	return colors.ColoredTextWithBG(fmt.Sprintf(format, a...), colors.Foreground.Black, colors.Background.LightYellow).String()
 }
 
 func redString(format string, a ...interface{}) string {
-	return colors.ColoredText(fmt.Sprintf(format, a), colors.Foreground.LightRed).String()
+	return colors.ColoredText(fmt.Sprintf(format, a...), colors.Foreground.LightRed).String()
 }
 
 func yellowString(format string, a ...interface{}) string {
-	return colors.ColoredText(fmt.Sprintf(format, a), colors.Foreground.LightYellow).String()
+	return colors.ColoredText(fmt.Sprintf(format, a...), colors.Foreground.LightYellow).String()
 }
 
 func greenString(format string, a ...interface{}) string {
-	return colors.ColoredText(fmt.Sprintf(format, a), colors.Foreground.LightGreen).String()
+	return colors.ColoredText(fmt.Sprintf(format, a...), colors.Foreground.LightGreen).String()
 }
 
 func cyanString(format string, a ...interface{}) string {
-	return colors.ColoredText(fmt.Sprintf(format, a), colors.Foreground.Cyan).String()
+	return colors.ColoredText(fmt.Sprintf(format, a...), colors.Foreground.Cyan).String()
 }
 
 // NewDefaultColors -
