@@ -4,7 +4,6 @@ import (
 	"log"
 
 	logging "github.com/codemodify/systemkit-logging"
-	"github.com/mattn/go-colorable"
 )
 
 type consoleLogger struct {
@@ -19,9 +18,6 @@ func NewConsoleLogger(colors map[logging.LogType]ConsoleLoggerColorDelegate) log
 }
 
 func (thisRef consoleLogger) Log(logEntry logging.LogEntry) logging.LogEntry {
-	log.SetOutput(colorable.NewColorableStdout()) // or NewColorableStderr()
-	log.SetFlags(0)
-
 	if logEntry.Type == logging.TypeTrace {
 		log.Println(thisRef.colors[logging.TypeTrace](logEntry.Message))
 
