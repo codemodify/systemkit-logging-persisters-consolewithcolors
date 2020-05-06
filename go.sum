@@ -1,5 +1,5 @@
-github.com/codemodify/systemkit-logging v1.8.2 h1:mLirYlQSczNJVh61/Q300AsRJfzmGzqG+sydPxFtCU4=
-github.com/codemodify/systemkit-logging v1.8.2/go.mod h1:29Zc9P/MnY2bgenJU9aoDszUef+Xf40b3ajtusTBC1Q=
+github.com/codemodify/systemkit-logging v1.8.4 h1:nkbj0VpnRnpI4PE4w9HNUv/ySO3A/1Y9LVeT9j+ZvGM=
+github.com/codemodify/systemkit-logging v1.8.4/go.mod h1:29Zc9P/MnY2bgenJU9aoDszUef+Xf40b3ajtusTBC1Q=
 github.com/codemodify/systemkit-terminal v1.0.4 h1:ON+Vm6yxdUUFZYpaiys+EUDrVJKhsLtmBBHUTzd1MKE=
 github.com/codemodify/systemkit-terminal v1.0.4/go.mod h1:5GjFzYZGBCXMoaqHcJcX/2DH+i6g9SPiiz732ChcJZ0=
 github.com/codemodify/systemkit-terminal-colors v1.0.4 h1:4CPkzFlUTX16ioVHWLF05pjKby7fcLsIyeSl2zMyE/Q=
